@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 25px;
+}
+
+nav .first img{
+    height: 20px;
+}
+
+.icon{
+    font-size: 50px;
+    color: green;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.icon:hover{
+    font-size: 60px;
+    color: rgb(38, 186, 38);
+    
+}
+
+.backgroud{
+    height: 5%;
+    width: 100%
+}
+
+nav .second{
+    color: aliceblue;
+}
